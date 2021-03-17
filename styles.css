@@ -4,11 +4,21 @@
   box-sizing: border-box;
 }
 
+p, div, li, a, button {
+  font-family: 'Quattrocento', Serif;
+  font-size: 16px;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Oswald', Sans-Serif;
+}
+
 /* header */
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
   background-color: #000000;
@@ -18,23 +28,14 @@ header {
   z-index: 2;
 }
 
-p, div, li, a, button {
-  font-family: 'Quattrocento', Serif;
-  font-size: 16px;
-}
-
-h1, h2, h3 {
-  font-family: 'Oswald', Sans-Serif;
-}
-
-}
-.nav__links {
+.logo {
+  margin-right: auto;
 }
 
 .nav__links li {
   list-style: none;
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .nav__links li a {
@@ -55,11 +56,12 @@ button {
   color: #F5BFB8;
   border: 1px solid #F5BFB8;
   transition: all 0.3s ease 0s;
+  margin-left: 15px;
 }
 
 button:hover {
-  background-color: rgba(255, 255, 255, 1);
-  color: #545251;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
   cursor: pointer;
 }
 
@@ -101,6 +103,8 @@ button:hover {
   font-size: 64px;
   margin: 0;
   color: #F5BFB8;
+  line-height: 1.2em;
+  padding-bottom: 20px;
 }
 
 .job {
@@ -125,6 +129,10 @@ button:hover {
   font-size: 36px;
 }
 
+.profile p {
+  line-height: 1.5em;
+}
+
 /* Programmes section */
 
 #programmes {
@@ -137,6 +145,10 @@ button:hover {
   padding: 50px;
   text-align: center;
   font-size: 24px;
+}
+
+.programmes__container p {
+  line-height: 1.5em;
 }
 
 .programmes__container h3 {
@@ -191,7 +203,7 @@ button:hover {
 /* Trainers Section */
 
 #trainers {
-  padding: 50px 0 50px 0;
+  padding: 50px 0 0px 0;
 }
 
 .trainers {
