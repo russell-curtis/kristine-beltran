@@ -14,7 +14,7 @@ h1, h2, h3 {
   font-family: 'Oswald', Sans-Serif;
 }
 
-/* header */
+/* Header */
 
 header {
   display: flex;
@@ -65,7 +65,7 @@ button:hover {
   cursor: pointer;
 }
 
-/* banner */
+/* Banner */
 
 .hero__image {
   position: relative;
@@ -200,7 +200,7 @@ button:hover {
   margin-bottom: 40px;
 }
 
-/* Trainers Section */
+/* Trainers */
 
 #trainers {
   padding: 50px 0 0px 0;
